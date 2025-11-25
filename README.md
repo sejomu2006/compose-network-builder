@@ -25,7 +25,7 @@ if sep=='y':
     DMZ_webserv=int(input("外部ネットワークで必要なwebサーバー数:"))
     inter_cli=int(input("内部ネットワークで必要なクライアント数:"))
     DMZ_cli=int(input("外部ネットワークで必要なクライアント数:"))
-    print("version:"+"'"+vers+"'")
+    print("version:"+" "+"'"+vers+"'")
     print("services:")
     for i in range(inter_serv):
         print("  "+"inter-serv"+str(i)+':')
